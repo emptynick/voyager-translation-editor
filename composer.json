@@ -1,5 +1,5 @@
 {
-    "name": "emptynick/voyager-translations-editor",
+    "name": "emptynick/voyager-translation-editor",
     "description": "Manage and edit translations in Voyager II",
     "license": "MIT",
     "authors": [
@@ -8,16 +8,16 @@
             "email": "info@cschweppe.de"
         }
     ],
-    "keywords": ["voyager2-plugin", "voyager-translations-editor", "voyager", "translations", "locales", "editor", "manager"],
+    "keywords": ["voyager2-plugin", "voyager-translation-editor", "voyager", "translations", "locales", "editor", "manager"],
     "autoload": {
         "psr-4": {
-            "Emptynick\\VoyagerTranslations\\": "src/"
+            "Emptynick\\VoyagerTranslation\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Emptynick\\VoyagerTranslations\\VoyagerTranslationsServiceProvider"
+                "Emptynick\\VoyagerTranslation\\VoyagerTranslationServiceProvider"
             ]
         }
     },

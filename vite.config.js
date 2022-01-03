@@ -10,7 +10,7 @@ export default defineConfig({
       entry: 'src/main.js',
       name: 'Voyager Translations Editor',
       formats: ['umd'],
-      fileName: 'voyager-translations-editor'
+      fileName: 'voyager-translation-editor'
     },
     rollupOptions: {
       external: ['vue', 'axios'],

@@ -1,6 +1,6 @@
 <?php
 
-namespace Emptynick\VoyagerTranslations;
+namespace Emptynick\VoyagerTranslation;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -11,12 +11,12 @@ use Voyager\Admin\Contracts\Plugins\GenericPlugin;
 use Voyager\Admin\Contracts\Plugins\Features\Provider\{MenuItems, JS, ProtectedRoutes};
 use Voyager\Admin\Manager\Menu as MenuManager;
 
-class VoyagerTranslations implements GenericPlugin, ProtectedRoutes, MenuItems, JS
+class VoyagerTranslation implements GenericPlugin, ProtectedRoutes, MenuItems, JS
 {
-    public $name = 'Voyager translations editor';
+    public $name = 'Voyager translation editor';
     public $description = 'Manage and edit translations in Voyager II';
-    public $repository = 'emptynick/voyager-translations-editor';
-    public $website = 'https://github.com/emptynick/voyager-translations-editor';
+    public $repository = 'emptynick/voyager-translation-editor';
+    public $website = 'https://github.com/emptynick/voyager-translation-editor';
 
     public function provideProtectedRoutes(): void
     {
