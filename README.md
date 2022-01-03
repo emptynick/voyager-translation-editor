@@ -1,3 +1,3 @@
-# Voyager dashboard manager
+# Voyager translations editor
 
-Manager widgets on your dashboard. For yourself, single users or everyone!
+Manage and edit translation files directly in Voyager II.
